@@ -5,6 +5,7 @@ const bodyParser = require('body-parser');
 const exphbs = require('express-handlebars');
 const app = express();
 
+//Here is a fresh comment
 
 // Handlebars
 app.engine('handlebars', exphbs({defaultLayout:'main'}));
